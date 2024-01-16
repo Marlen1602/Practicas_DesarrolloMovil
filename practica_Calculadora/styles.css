@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.calculadora {
+    width: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.pantallita {
+    padding: 30px;
+    font-size: 24px;
+    text-align: right;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    background-color: white;
+    border: 1px solid #ccc;
+    color: black;
+    padding: 16px 20px;
+    font-size: 16px;
+    margin: 2px 2px;
+    border-radius: 5%;
+    
+}
+button:hover {
+    background-color: #cccccc9f;
+}
+
