@@ -1,44 +1,43 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="calculadora">
-        <div id="pantallita" class="pantallita">0</div>
-        <div class="botones">
-            <button id="btn-%">%</button>
-            <button id="btn-CE">CE</button>
-            <button id="btn-C">C</button>
-            <button id="btn-borrar">←</button>
+    <div class="calculadora" id="cal">
+        <div class="pantalla" id="pant">
+            <span class="display" id="display"></span>
+        </div>
+        <div class="teclados" id="teclado">
+            <button class="teclado" id="btn-porcentaje">%</button>
+            <button class="teclado" id="btn-ce">CE</button>
+            <button class="teclado" id="btn-c">C</button>
+            <button class="teclado" id="btn-borrar">←</button>
+            <button class="teclado" id="btn-fraccion">1/x</button>
+            <button class="teclado" id="btn-cuadrado">x^2</button>
+            <button class="teclado" id="btn-raiz">√x</button>
+            <button class="teclado" id="btn-div">÷</button>
+            <button class="teclado" id="btn-siete">7</button>
+            <button class="teclado" id="btn-ocho">8</button>
+            <button class="teclado" id="btn-nueve">9</button>
+            <button class="teclado" id="btn-mul">x</button>
+            <button class="teclado" id="btn-cuatro">4</button>
+            <button class="teclado" id="btn-cinco">5</button>
+            <button class="teclado" id="btn-seis">6</button>
+            <button class="teclado" id="btn-res">-</button>
+            <button class="teclado" id="btn-uno">1</button>
+            <button class="teclado" id="btn-dos">2</button>
+            <button class="teclado" id="btn-tres">3</button>
+            <button class="teclado" id="btn-sum">+</button>
+            <button class="teclado" id="btn-masmenos">+/-</button>
+            <button class="teclado" id="btn-cero">0</button>
+            <button class="teclado" id="btn-punto">.</button>
+            <button class="teclado" id="btn-igual">=</button>
 
-            <button id="btn-div">1/x</button>
-            <button id="btn-cuadrado">x²</button>
-            <button id="btn-raiz">²√x</button>
-            <button id="btn-division">÷</button>
-
-            <button id="btn-7">7</button>
-            <button id="btn-8">8</button>
-            <button id="btn-9">9</button>
-            <button id="btn-mult">X</button>
-
-            <button id="btn-4">4</button>
-            <button id="btn-5">5</button>
-            <button id="btn-6">6</button>
-            <button id="btn-resta">-</button>
-
-            <button id="btn-1">1</button>
-            <button id="btn-2">2</button>
-            <button id="btn-3">3</button>
-            <button id="btn-suma">+</button>
-
-            <button id="btn-masmenos">+/-</button>
-            <button id="btn-0">0</button>
-            <button id="btn-punto">.</button>
-            <button id="btn-igual">=</button>
+            <script src="calculadora.js"></script>
         </div>
     </div>
 </body>

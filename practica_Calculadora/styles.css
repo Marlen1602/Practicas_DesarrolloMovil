@@ -5,28 +5,37 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  }
+
 .calculadora {
     width: 300px;
     background-color: #f0f0f0;
     border: 1px solid #cccccc;
     border-radius: 8px;
     overflow: hidden;
+    
 }
-.pantallita {
-    padding: 30px;
-    font-size: 24px;
+
+.pantalla{
+    padding: 40px;
+    font-size: 20px;
     text-align: right;
     background-color: #eee;
     border-bottom: 1px solid #ccc;
 }
 
-.botones {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.display {
+    font-weight: bold;
+    color: black;
 }
 
-button {
+.teclados {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.teclado {
     background-color: white;
     border: 1px solid #ccc;
     color: black;
@@ -34,9 +43,18 @@ button {
     font-size: 16px;
     margin: 2px 2px;
     border-radius: 5%;
+}
+
+.teclado:hover {
+    background-color: rgba(145, 161, 149, 0.473);
+}
+.teclado#btn-igual{
+    background-color:rgba(145, 161, 149, 0.473);
+}
+
+.teclado#btn-igual:hover{
+    background-color: rgb(255, 255, 255);
+}
     
-}
-button:hover {
-    background-color: #cccccc9f;
-}
+    
 
